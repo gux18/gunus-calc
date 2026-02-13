@@ -1,0 +1,8 @@
+input {
+    width: 35px;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}

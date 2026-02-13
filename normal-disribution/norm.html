@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>정규분포로 확률 계산하기</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+    <h1>정규분포로 확률 계산하기</h1>
+    </div>
+    
+    <div>
+        <label for="mean">E(X)(평균):</label>
+        <input type="text" id="mean">
+    </div>
+
+    <div>
+        <label for="std">σ(X)(표준편차):</label>
+        <input type="text" id="std">
+    </div>
+
+    <div>
+        <label for="min">범위</label>
+        <input type="text" id="min">
+        <label for ="max">~</label>
+        <input type="text" id="max">
+        <button id="calc">계산</button>
+    </div>
+    
+    <div>
+        <p id="prob">P(a &le; X &le; b)</p>
+    </div>
+
+    <div>
+        <canvas id="canvas" width="1000" height="500"></canvas>
+    </div>
+    <!-- 표준편차 변화를 그래프에 직접 표현-->
+
+    <!-- 정규분포 활용 예와 통계청 링크 등 추가-->
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jstat/1.9.4/jstat.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

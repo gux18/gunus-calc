@@ -1,0 +1,48 @@
+h1 {
+    display: flex;
+    justify-content: center;  
+}
+
+form {
+    display: flex;
+    justify-content: center;  
+}
+
+input {
+    width: 35px;
+    height: 50px;
+    font-size: 30px;
+}
+
+select {
+    font-size: 30px;
+}
+
+button {
+    font-size: 15px;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+}
+.output {
+    font-size: 20px; 
+}
+
+ul {
+    padding: 0;
+    margin: 0 auto;
+    display: block;
+    width: fit-content;
+}
+
+.preserve-space {
+    white-space: pre-wrap;
+    font-size: 15px;
+}
+
+#credit {
+    color: rgb(100, 100, 100);
+    font-size: small;
+}

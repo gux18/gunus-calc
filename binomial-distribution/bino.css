@@ -1,0 +1,10 @@
+input {
+    width: 30px;
+    background-color:black;
+    color: white;
+}
+
+body {
+    background-color: #424242;
+    color: white;
+}
