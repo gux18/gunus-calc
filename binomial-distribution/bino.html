@@ -9,13 +9,18 @@
 </head>
 
 <body>
+    <div>
     <h1>이항분포</h1>
+    </div>
+
+    <div>
     <label for="n">시행횟수</label>
     <input type="text" id="n">
     <label for="p">성공확률</label>
     <input type="text" id="p">
     <label for="k">성공횟수</label>
     <input type="text" id="k">
+    </div>
     <!-- 성공 횟수를 여러 개(특정 범위) 확인할 수 있도록 변경-->
 
     <button id="calc">계산</button>
@@ -23,10 +28,13 @@
     <p></p>
     <canvas id="myCanvas" width="800" height="450"></canvas>
 
+    <div class="result">
     <p id="B">B(n, p)</p>
     <p id="mu">&mu; = np</p>
     <p id="sigma">&sigma; = √(npq)   (q=1-p)</p>
     <p id="prob">P(X=k) = nCk*(p^k)*(q^n-k)</p>
+    </div>
+    <p id="credit">By Gunu</p>
 
     <script src="bino.js"></script>
 </body>

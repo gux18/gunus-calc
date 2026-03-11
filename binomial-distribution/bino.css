@@ -4,7 +4,7 @@ input {
     color: white;
 }
 
-body {
-    background-color: #424242;
-    color: white;
+.result  {
+    display: block;
+    margin-bottom: 10px;
 }

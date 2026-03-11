@@ -1,0 +1,16 @@
+.calcs a {
+  display: block;
+  margin-bottom: 10px;
+}
+body {
+    background-color: #64748B;
+    color: #FAFAFB;
+}
+#credit {
+    color: rgb(150, 150, 150);
+    font-size: small;
+}
+div {
+    display: flex;
+    justify-content: center;
+}
