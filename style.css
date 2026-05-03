@@ -9,6 +9,7 @@ body {
 #credit {
     color: rgb(150, 150, 150);
     font-size: small;
+    text-align: center; 
 }
 div {
     display: flex;
